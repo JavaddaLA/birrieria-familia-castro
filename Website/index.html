@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birrieria Familia Castro | Authentic Family Birria, Slow-Cooked With Tradition</title>
+<meta name="description" content="Authentic family-recipe birria in North Hollywood. Slow-braised birria de res, quesabirria, birria tacos, birria ramen & more. Rated 4.8 stars. Call (818) 800-5098.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- ===== STICKY NAV ===== -->
+<nav class="nav" id="nav">
+  <div class="nav__inner container">
+    <a href="#" class="nav__brand">
+      <div class="nav__logo-mark">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18" stroke="var(--primary)" stroke-width="2" fill="var(--primary-10)"/>
+          <path d="M12 26c0-6 3-12 8-14 5 2 8 8 8 14" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M16 26c0-4 1.8-8 4-10 2.2 2 4 6 4 10" stroke="var(--highlight)" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="20" cy="14" r="2" fill="var(--highlight)"/>
+        </svg>
+      </div>
+      <div class="nav__brand-text">
+        <span class="nav__brand-name">Familia Castro</span>
+        <span class="nav__brand-sub">Birrieria</span>
+      </div>
+    </a>
+    <div class="nav__links" id="navLinks">
+      <a href="#menu" class="nav__link">Menu</a>
+      <a href="#story" class="nav__link">Our Story</a>
+      <a href="#reviews" class="nav__link">Reviews</a>
+      <a href="#catering" class="nav__link">Catering</a>
+      <a href="#contact" class="nav__link">Visit Us</a>
+    </div>
+    <a href="tel:8188005098" class="btn btn--primary nav__cta">Order Now</a>
+    <button class="nav__hamburger" id="navHamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===== MOBILE MENU ===== -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu__inner">
+    <a href="#menu" class="mobile-menu__link">Menu</a>
+    <a href="#story" class="mobile-menu__link">Our Story</a>
+    <a href="#reviews" class="mobile-menu__link">Reviews</a>
+    <a href="#catering" class="mobile-menu__link">Catering</a>
+    <a href="#contact" class="mobile-menu__link">Visit Us</a>
+    <a href="tel:8188005098" class="btn btn--primary mobile-menu__cta">Order Now</a>
+  </div>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero__bg">
+    <img src="https://images.pexels.com/photos/7613568/pexels-photo-7613568.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Authentic birria tacos" class="hero__bg-img">
+    <div class="hero__overlay"></div>
+    <div class="hero__glow"></div>
+  </div>
+  <div class="hero__content container">
+    <div class="hero__tag">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--highlight)" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span>Rated 4.8 Stars · 236+ Google Reviews</span>
+    </div>
+    <h1 class="hero__title">Authentic Family <em>Birria</em>, Slow-Cooked With Tradition</h1>
+    <p class="hero__sub">Three generations of family recipes. Deeply flavorful, slow-braised birria de res served daily from our kitchen on Vineland Ave in North Hollywood.</p>
+    <div class="hero__ctas">
+      <a href="tel:8188005098" class="btn btn--primary btn--lg">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call to Order
+      </a>
+      <a href="#menu" class="btn btn--ghost btn--lg">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+        View Menu
+      </a>
+    </div>
+    <div class="hero__metrics">
+      <div class="hero__metric">
+        <span class="hero__metric-num">4.8</span>
+        <span class="hero__metric-label">Star Rating</span>
+      </div>
+      <div class="hero__metric-divider"></div>
+      <div class="hero__metric">
+        <span class="hero__metric-num">236+</span>
+        <span class="hero__metric-label">Google Reviews</span>
+      </div>
+      <div class="hero__metric-divider"></div>
+      <div class="hero__metric">
+        <span class="hero__metric-num">3</span>
+        <span class="hero__metric-label">Generations</span>
+      </div>
+      <div class="hero__metric-divider"></div>
+      <div class="hero__metric">
+        <span class="hero__metric-num">12hr</span>
+        <span class="hero__metric-label">Slow-Braised</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll-cue">
+    <span>Scroll</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+</section>
+
+<!-- ===== TRUST STRIP ===== -->
+<section class="trust">
+  <div class="trust__inner container">
+    <div class="trust__item reveal">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      <span>Family-Owned & Operated</span>
+    </div>
+    <div class="trust__item reveal">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      <span>Generational Recipes</span>
+    </div>
+    <div class="trust__item reveal">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span>4.8★ on Google</span>
+    </div>
+    <div class="trust__item reveal">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      <span>12-Hour Slow Braise</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU / SERVICES GRID ===== -->
+<section class="services" id="menu">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag reveal">Our Menu</span>
+      <h2 class="section-title reveal">Every Dish, a <em>Family</em> Tradition</h2>
+      <p class="section-desc reveal">From our signature birria de res to our famous quesabirria, every item is crafted with slow-braised care and generations of flavor.</p>
+    </div>
+    <div class="services__grid">
+      <!-- Card 1 -->
+      <div class="service-card reveal" data-delay="0">
+        <div class="service-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8"><path d="M12 3c-4.97 0-9 2.686-9 6h18c0-3.314-4.03-6-9-6z"/><rect x="3" y="9" width="18" height="2" rx="1"/><path d="M5 11c0 5 3 8 7 10 4-2 7-5 7-10"/></svg>
+        </div>
+        <h3 class="service-card__title">Birria de Res</h3>
+        <p class="service-card__desc">Our signature dish — tender beef slow-braised for 12 hours in a rich blend of dried chiles, spices, and our secret family adobo. Served with handmade tortillas and consomé.</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="service-card reveal" data-delay="0.1">
+        <div class="service-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+        </div>
+        <h3 class="service-card__title">Birria Tacos</h3>
+        <p class="service-card__desc">Crispy corn tortillas dipped in consomé, filled with juicy shredded birria, topped with cilantro and onion. Served with a side of rich consomé for dipping.</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="service-card reveal" data-delay="0.2">
+        <div class="service-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8"><path d="M4 19h16"/><path d="M4 19c0-8 2-14 8-16 6 2 8 8 8 16"/><path d="M8 19c0-5 1.5-9 4-11 2.5 2 4 6 4 11"/></svg>
+        </div>
+        <h3 class="service-card__title">Quesabirria</h3>
+        <p class="service-card__desc">The fan favorite — melted Oaxaca cheese and tender birria folded into a crispy, consomé-dipped tortilla. Golden, cheesy, and impossibly satisfying.</p>
+      </div>
+      <!-- Card 4 -->
+      <div class="service-card reveal" data-delay="0">
+        <div class="service-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8"><path d="M12 2C6.48 2 2 6 2 10c0 2 1 4 3 5.5V22l3-2 3 2 3-2 3 2v-6.5c2-1.5 3-3.5 3-5.5 0-4-4.48-8-10-8z"/></svg>
+        </div>
+        <h3 class="service-card__title">Birria Ramen</h3>
+        <p class="service-card__desc">East meets West — ramen noodles swimming in our deeply flavorful birria consomé, topped with tender braised beef, cilantro, lime, and a soft-boiled egg.</p>
+      </div>
+      <!-- Card 5 -->
+      <div class="service-card reveal" data-delay="0.1">
+        <div class="service-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8"><rect x="3" y="8" width="18" height="10" rx="3"/><path d="M7 8V6a5 5 0 0 1 10 0v2"/></svg>
+        </div>
+        <h3 class="service-card__title">Mulitas & Consomé</h3>
+        <p class="service-card__desc">Thick, handmade tortillas pressed with birria and melted cheese, griddled until golden. Paired with our legendary consomé — the soul of every birria dish.</p>
+      </div>
+      <!-- Card 6 -->
+      <div class="service-card reveal" data-delay="0.2">
+        <div class="service-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.8"><path d="M8 2v4"/><path d="M16 2v4"/><rect x="3" y="6" width="18" height="15" rx="2"/><path d="M3 10h18"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/></svg>
+        </div>
+        <h3 class="service-card__title">Catering Services</h3>
+        <p class="service-card__desc">Bring the Familia Castro experience to your next event. Full birria catering for parties, weddings, corporate events, and celebrations of all sizes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STICKY STORY SECTION ===== -->
+<section class="story" id="story">
+  <div class="container">
+    <div class="story__grid">
+      <div class="story__left">
+        <div class="story__left-inner">
+          <span class="section-tag">Our Story</span>
+          <h2 class="section-title">A Legacy Built on <em>Flavor</em></h2>
+          <div class="story__steps">
+            <div class="story__step is-active" data-step="0">
+              <h4>Generational Roots</h4>
+              <p>The Castro family recipe was born in Jalisco, Mexico — passed down through three generations. Every pot of birria carries the soul of our abuela's kitchen.</p>
+            </div>
+            <div class="story__step" data-step="1">
+              <h4>Slow-Cooked Craft</h4>
+              <p>We start before sunrise. Our beef is marinated overnight in a complex blend of dried guajillo, ancho, and árbol chiles, then slow-braised for 12 hours until fork-tender.</p>
+            </div>
+            <div class="story__step" data-step="2">
+              <h4>Community First</h4>
+              <p>From our spot on Vineland Ave to your family's table, we serve North Hollywood and the San Fernando Valley with pride, love, and the best birria in LA.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="story__right">
+        <div class="story__image-panel">
+          <img src="https://images.pexels.com/photos/5737247/pexels-photo-5737247.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Traditional Mexican cooking" loading="lazy">
+        </div>
+        <div class="story__image-panel">
+          <img src="https://images.pexels.com/photos/6605214/pexels-photo-6605214.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Slow-braised birria preparation" loading="lazy">
+        </div>
+        <div class="story__image-panel">
+          <img src="https://images.pexels.com/photos/4958641/pexels-photo-4958641.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Family restaurant community" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PARALLAX BANNER ===== -->
+<section class="parallax-banner">
+  <div class="parallax-banner__img-wrap">
+    <img src="https://images.pexels.com/photos/5409020/pexels-photo-5409020.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Birria tacos being prepared" class="parallax-banner__img" loading="lazy">
+  </div>
+  <div class="parallax-banner__overlay">
+    <h2 class="parallax-banner__title">Every Bite Tells a <em>Story</em></h2>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag reveal">Reviews</span>
+      <h2 class="section-title reveal">Loved by <em>Our Community</em></h2>
+      <p class="section-desc reveal">Don't just take our word for it — hear from the 236+ customers who've made us their go-to birria spot in the Valley.</p>
+    </div>
+    <div class="reviews__grid">
+      <!-- Review 1 -->
+      <div class="review-card reveal" data-delay="0">
+        <div class="review-card__stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <blockquote class="review-card__quote">
+          <span class="review-card__open-quote">"</span>
+          Best birria I've ever had outside of Mexico. The consomé alone is worth the trip. My family drives from Pasadena just to eat here every weekend. Truly the real deal.
+        </blockquote>
+        <div class="review-card__author">
+          <div class="review-card__avatar">M</div>
+          <div>
+            <strong>Maria G.</strong>
+            <span>Google Review</span>
+          </div>
+        </div>
+      </div>
+      <!-- Review 2 -->
+      <div class="review-card reveal" data-delay="0.1">
+        <div class="review-card__stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <blockquote class="review-card__quote">
+          <span class="review-card__open-quote">"</span>
+          The quesabirria is absolutely unreal. Crispy, cheesy, and the meat just melts in your mouth. I've tried every birria spot in the Valley and Familia Castro is #1 hands down.
+        </blockquote>
+        <div class="review-card__author">
+          <div class="review-card__avatar">J</div>
+          <div>
+            <strong>Jose R.</strong>
+            <span>Google Review</span>
+          </div>
+        </div>
+      </div>
+      <!-- Review 3 -->
+      <div class="review-card reveal" data-delay="0.2">
+        <div class="review-card__stars">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--highlight)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <blockquote class="review-card__quote">
+          <span class="review-card__open-quote">"</span>
+          They catered my daughter's quinceañera and everyone was raving about the food. The birria ramen was the surprise hit! Professional, generous portions, incredible flavor.
+        </blockquote>
+        <div class="review-card__author">
+          <div class="review-card__avatar">L</div>
+          <div>
+            <strong>Leticia V.</strong>
+            <span>Google Review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BAND ===== -->
+<section class="cta-band" id="catering">
+  <div class="container">
+    <div class="cta-band__box">
+      <div class="cta-band__glow"></div>
+      <h2 class="cta-band__title">Ready to Taste <em>Tradition</em>?</h2>
+      <p class="cta-band__sub">Whether you're craving a plate of our legendary birria or planning an unforgettable catered event, the Castro family is here to serve you.</p>
+      <a href="tel:8188005098" class="btn btn--primary btn--lg">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call (818) 800-5098
+      </a>
+      <div class="cta-band__phone">
+        <div class="cta-band__ring-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--highlight)" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </div>
+        <a href="tel:8188005098" class="cta-band__phone-num">(818) 800-5098</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag reveal">Visit Us</span>
+      <h2 class="section-title reveal">Find <em>Familia Castro</em></h2>
+    </div>
+    <div class="contact__grid">
+      <div class="contact__info">
+        <p class="contact__intro reveal">Come experience the warmth of our family kitchen. We're located on Vineland Ave in the heart of North Hollywood, serving the San Fernando Valley and beyond.</p>
+        <div class="contact__items">
+          <div class="contact__item reveal">
+            <div class="contact__item-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Address</h4>
+              <p>6102 Vineland Ave<br>North Hollywood, CA 91606</p>
+            </div>
+          </div>
+          <div class="contact__item reveal">
+            <div class="contact__item-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:8188005098">(818) 800-5098</a></p>
+            </div>
+          </div>
+          <div class="contact__item reveal">
+            <div class="contact__item-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4>Hours</h4>
+              <p>Open Daily<br>Check Google for today's hours</p>
+            </div>
+          </div>
+          <div class="contact__item reveal">
+            <div class="contact__item-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <div>
+              <h4>Catering</h4>
+              <p>Available for events of all sizes<br>Call to book your date</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact__map reveal-scale">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.8!2d-118.3724!3d34.1719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c295b1f38e1b0d%3A0x7c7a8e3c6e6f0e0!2s6102%20Vineland%20Ave%2C%20North%20Hollywood%2C%20CA%2091606!5e0!3m2!1sen!1sus!4v1700000000000!5m2!1sen!1sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Birrieria Familia Castro Location"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#" class="nav__brand">
+          <div class="nav__logo-mark">
+            <svg width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="18" stroke="var(--primary)" stroke-width="2" fill="var(--primary-10)"/>
+              <path d="M12 26c0-6 3-12 8-14 5 2 8 8 8 14" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+              <path d="M16 26c0-4 1.8-8 4-10 2.2 2 4 6 4 10" stroke="var(--highlight)" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="20" cy="14" r="2" fill="var(--highlight)"/>
+            </svg>
+          </div>
+          <div class="nav__brand-text">
+            <span class="nav__brand-name">Familia Castro</span>
+            <span class="nav__brand-sub">Birrieria</span>
+          </div>
+        </a>
+        <p class="footer__desc">A true family-run operation built on generational recipes, serving deeply flavorful, slow-braised birria from the heart of North Hollywood to your family's table.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#menu">Birria de Res</a></li>
+          <li><a href="#menu">Birria Tacos</a></li>
+          <li><a href="#menu">Quesabirria</a></li>
+          <li><a href="#menu">Birria Ramen</a></li>
+          <li><a href="#menu">Mulitas</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#catering">Catering</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="https://maps.google.com/?q=6102+Vineland+Ave+North+Hollywood+CA+91606" target="_blank" rel="noopener">Get Directions</a></li>
+          <li><a href="tel:8188005098">(818) 800-5098</a></li>
+          <li><a href="https://birrieriafamiliacastro.site/" target="_blank" rel="noopener">Website</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2024 Birrieria Familia Castro. All rights reserved.</p>
+      <p class="footer__attr">Crafted with ❤️ in North Hollywood</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+<script>
+(function() {
+  'use strict';
+
+  // Lenis smooth scroll
+  const lenis = new Lenis({
+    duration: 1.2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    smoothWheel: true,
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+
+  // Update ScrollTrigger on Lenis scroll
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add((time) => {
+    lenis.raf(time * 1000);
+  });
+  gsap.ticker.lagSmoothing(0);
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Nav scroll effect
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 60) {
+      nav.classList.add('is-scrolled');
+    } else {
+      nav.classList.remove('is-scrolled');
+    }
+  });
+
+  // Mobile menu
+  const hamburger = document.getElementById('navHamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('is-open');
+    mobileMenu.classList.toggle('is-open');
+    document.body.classList.toggle('menu-open');
+  });
+  document.querySelectorAll('.mobile-menu__link').forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('is-open');
+      mobileMenu.classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    });
+  });
+
+  // Hero timeline
+  const heroTl = gsap.timeline({ delay: 0.3 });
+  heroTl
+    .from('.nav__inner', { opacity: 0, y: -20, duration: 0.8, ease: 'power3.out' })
+    .from('.hero__tag', { opacity: 0, y: 30, duration: 0.8, ease: 'power3.out' }, '-=0.5')
+    .from('.hero__title', { opacity: 0, y: 40, duration: 0.8, ease: 'power3.out' }, '-=0.55')
+    .from('.hero__sub', { opacity: 0, y: 30, duration: 0.8, ease: 'power3.out' }, '-=0.55')
+    .from('.hero__ctas', { opacity: 0, y: 30, duration: 0.8, ease: 'power3.out' }, '-=0.55')
+    .from('.hero__metrics', { opacity: 0, y: 30, duration: 0.8, ease: 'power3.out' }, '-=0.55')
+    .from('.hero__scroll-cue', { opacity: 0, duration: 0.8, ease: 'power3.out' }, '-=0.3');
+
+  // Reveal animations
+  const revealClasses = [
+    { selector: '.reveal', props: { opacity: 0, y: 40 } },
+    { selector: '.reveal-left', props: { opacity: 0, x: -60 } },
+    { selector: '.reveal-right', props: { opacity: 0, x: 60 } },
+    { selector: '.reveal-scale', props: { opacity: 0, scale: 0.94 } },
+  ];
+
+  revealClasses.forEach(({ selector, props }) => {
+    gsap.utils.toArray(selector).forEach((el) => {
+      const delay = parseFloat(el.dataset.delay) || 0;
+      gsap.from(el, {
+        ...props,
+        duration: 0.6,
+        delay: delay,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 85%',
+          toggleActions: 'play none none none',
+        },
+      });
+    });
+  });
+
+  // Sticky story section
+  const storySection = document.querySelector('.story');
+  const storySteps = document.querySelectorAll('.story__step');
+  const storyImages = document.querySelectorAll('.story__image-panel');
+
+  if (storySection && storySteps.length > 0) {
+    ScrollTrigger.create({
+      trigger: storySection,
+      start: 'top top',
+      end: 'bottom bottom',
+      onUpdate: (self) => {
+        const progress = self.progress;
+        const stepCount = storySteps.length;
+        const activeIndex = Math.min(Math.floor(progress * stepCount), stepCount - 1);
+
+        storySteps.forEach((step, i) => {
+          if (i === activeIndex) {
+            step.classList.add('is-active');
+          } else {
+            step.classList.remove('is-active');
+          }
+        });
+      },
+    });
+  }
+
+  // Parallax banner
+  const parallaxImg = document.querySelector('.parallax-banner__img');
+  if (parallaxImg) {
+    gsap.to(parallaxImg, {
+      yPercent: 20,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.parallax-banner',
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: 1,
+      },
+    });
+  }
+
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        lenis.scrollTo(target, { offset: -80 });
+      }
+    });
+  });
+
+})();
+</script>
+
+</body>
+</html>
